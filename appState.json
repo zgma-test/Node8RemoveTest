@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "23f00de5-23c0-431a-9777-2f523ae3dbaf": {
+        "id": "23f00de5-23c0-431a-9777-2f523ae3dbaf",
+        "parent": null,
+        "name": "Node8RemoveTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "33cb751b-ca6d-4c7f-b2ea-b3882de31542"
+        ],
+        "isRemovable": false,
+        "filePath": "Node8RemoveTest"
+      },
+      "33cb751b-ca6d-4c7f-b2ea-b3882de31542": {
+        "id": "33cb751b-ca6d-4c7f-b2ea-b3882de31542",
+        "parent": "23f00de5-23c0-431a-9777-2f523ae3dbaf",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Node8RemoveTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "23f00de5-23c0-431a-9777-2f523ae3dbaf",
+    "openFiles": [
+      "33cb751b-ca6d-4c7f-b2ea-b3882de31542"
+    ],
+    "currentFileId": "33cb751b-ca6d-4c7f-b2ea-b3882de31542",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Node8RemoveTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576213785139
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Node8RemoveTest",
+      "url": "https://github.com/zgma-test/Node8RemoveTest"
+    }
+  }
+}
